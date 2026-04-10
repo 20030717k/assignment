@@ -69,7 +69,7 @@ namespace htel
                     cost = NumberOfnight * 75.3;
                 }
                 //checking if the room service is included
-                if (roomService == "yes")
+                if (roomService.ToLower() == "yes")
                 {
                     cost = cost + (cost * .10);
 
