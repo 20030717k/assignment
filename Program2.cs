@@ -28,7 +28,7 @@ namespace htel
              
                
                 //taking user inputs
-                Console.WriteLine("Enter Customer Name:");
+                Console.WriteLine("Enter Customer Name (only text):");
                 string Name = Console.ReadLine();
                 name[i] = Name;
                 Console.WriteLine("Enter Number of night:");
